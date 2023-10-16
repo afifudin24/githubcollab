@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="585dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-98dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="212dp"
+        app:srcCompat="@drawable/bg_5"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-131dp" />
+
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="345dp"
+        android:background="#CBEAC2F1"
+        android:fontFamily="@font/poppins"
+        android:inputType="text"
+        android:text="Username"
+        android:textSize="14sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textViewlg"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="408dp"
+        android:text="LOGIN"
+        android:textAlignment="viewStart"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="275dp"
+        android:background="#CBEAC2F1"
+        android:fontFamily="@font/poppins"
+        android:inputType="text"
+        android:text="Password"
+        android:textSize="14sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="129dp"
+        android:backgroundTint="#CBEAC2F1"
+        android:fontFamily="@font/poppins"
+        android:text="Login"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerandActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="445dp"
+            android:layout_height="1431dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <SearchView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/foto1" />
+
+                                <FrameLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+
+                                    <TextView
+                                        android:id="@+id/textView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="PROMO"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left|bottom"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="DAPATKAN PROMO"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+
+                                </FrameLayout>
+
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/foto2" />
+
+                                <FrameLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+
+                                    <TextView
+                                        android:id="@+id/textView7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="PROMO"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView3"
+                                        android:layout_width="154dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left|bottom"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="MUA MULAI DARI 1 - 2 JT AN"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+
+                                </FrameLayout>
+
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/foto3" />
+
+                                <FrameLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+
+                                    <TextView
+                                        android:id="@+id/textView9"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="PROMO"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView99"
+                                        android:layout_width="196dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left|bottom"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="DECORATION POTONGAN HARGA SAMPAI 1 JT!!"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+
+                                </FrameLayout>
+
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15px"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins"
+                    android:text="Ayo Tentukan Pilihanmu Sekarang!"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/decoricon" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="Decor"
+                                        android:textColor="#171010"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/muaicon" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="MUA"
+                                        android:textColor="#171010"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/clothes" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="Clothes"
+                                        android:textColor="#171010"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/catering" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="Catering"
+                                        android:textColor="#171010"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/photography" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="Photography"
+                                        android:textColor="#171010"
+                                        android:textSize="10sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/card" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="Design"
+                                        android:textColor="#171010"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/musik" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="Music"
+                                        android:textColor="#171010"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/lokasi" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="Location"
+                                        android:textColor="#171010"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:layout_margin="10px"
+                                android:background="@drawable/radius"
+                                android:padding="10px"
+
+                                >
+
+                                <LinearLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="vertical"
+                                    android:textAlignment="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5px"
+                                        android:src="@drawable/hadiah" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins"
+                                        android:text="Favor - Gift"
+                                        android:textColor="#171010"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15px"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins"
+                    android:text="Rekomendasi"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="15px">
+
+                                <ImageView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/foto1" />
+
+                                <FrameLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+
+                                    <TextView
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="REC"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left|bottom"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="AYO PILIH PAKET HEMAT LENGKAP"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+
+                                </FrameLayout>
+
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="15px">
+
+                                <ImageView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/foto1" />
+
+                                <FrameLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+
+                                    <TextView
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="REC"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left|bottom"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/radius"
+                                        android:padding="10dp"
+                                        android:text="AYO PILIH PAKET HEMAT LENGKAP"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+
+                                </FrameLayout>
+
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15px"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins"
+                    android:text="Content Channels"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10px"
+                    android:paddingVertical="10px">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="124dp"
+                        android:layout_marginHorizontal="10px"
+                        android:layout_marginBottom="20px">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:outlineSpotShadowColor="#333232"
+
+
+                            app:cardBackgroundColor="#DAF8EE"
+                            app:cardCornerRadius="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="109dp"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:orientation="horizontal"
+                                android:outlineSpotShadowColor="#393636"
+                                android:paddingHorizontal="10px"
+                                android:paddingVertical="10px">
+
+                                <ImageView
+                                    android:id="@+id/imageView10"
+                                    android:layout_width="150dp"
+                                    android:layout_height="101dp"
+
+                                    android:layout_marginHorizontal="10px"
+                                    app:srcCompat="@drawable/foto1" />
+
+                                <TextView
+                                    android:layout_width="114dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="20px"
+                                    android:fontFamily="@font/poppins"
+                                    android:text="Rekomendasi catering buat kalian gaess"
+                                    android:textColor="#120F0F" />
+
+                                <ImageView
+                                    android:id="@+id/imageView40"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal|center_vertical"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/arrow" />
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="124dp"
+                        android:layout_marginHorizontal="10px"
+                        android:layout_marginBottom="20px">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:outlineSpotShadowColor="#333232"
+
+
+                            app:cardBackgroundColor="#DAF8EE"
+                            app:cardCornerRadius="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="109dp"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:orientation="horizontal"
+                                android:outlineSpotShadowColor="#393636"
+                                android:paddingHorizontal="10px"
+                                android:paddingVertical="10px">
+
+                                <ImageView
+
+                                    android:layout_width="150dp"
+                                    android:layout_height="101dp"
+
+                                    android:layout_marginHorizontal="10px"
+                                    app:srcCompat="@drawable/foto1" />
+
+                                <TextView
+                                    android:layout_width="114dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="20px"
+                                    android:fontFamily="@font/poppins"
+                                    android:text="Rekomendasi catering buat kalian gaess"
+                                    android:textColor="#120F0F" />
+
+                                <ImageView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal|center_vertical"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/arrow" />
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="124dp"
+                        android:layout_marginHorizontal="10px"
+                        android:layout_marginBottom="20px">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:outlineSpotShadowColor="#333232"
+
+
+                            app:cardBackgroundColor="#DAF8EE"
+                            app:cardCornerRadius="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="109dp"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:orientation="horizontal"
+                                android:outlineSpotShadowColor="#393636"
+                                android:paddingHorizontal="10px"
+                                android:paddingVertical="10px">
+
+                                <ImageView
+
+                                    android:layout_width="150dp"
+                                    android:layout_height="101dp"
+
+                                    android:layout_marginHorizontal="10px"
+                                    app:srcCompat="@drawable/foto1" />
+
+                                <TextView
+                                    android:layout_width="114dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="20px"
+                                    android:fontFamily="@font/poppins"
+                                    android:text="Rekomendasi catering buat kalian gaess"
+                                    android:textColor="#120F0F" />
+
+                                <ImageView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal|center_vertical"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/arrow" />
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </FrameLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

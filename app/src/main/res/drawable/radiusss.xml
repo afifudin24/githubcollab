@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/background_with_opacity.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#B3FF00FF" /> <!-- Warna latar belakang dengan opacity 0.3 -->
+        </shape>
+    </item>
+</layer-list>

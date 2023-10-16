@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-238dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="165dp"
+        app:srcCompat="@drawable/bg_3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="475dp"
+        android:layout_height="607dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-32dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="-32dp"
+        android:layout_marginBottom="-138dp"
+        android:backgroundTint="#C58CCF"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="145dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Selamat Datang, Percayakan Rencana Pernikahan Anda Pada Kami"
+        android:textColor="#FFFFFF"
+        android:textSize="39sp" />
+
+    <ImageView
+        android:id="@+id/imageViewButton"
+        android:layout_width="110dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="47dp"
+        app:srcCompat="@drawable/button_pnh" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="654dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Daftar disini"
+        android:textSize="20sp" />
+
+</RelativeLayout>

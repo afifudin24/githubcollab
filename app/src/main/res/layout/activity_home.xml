@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textViewhm"
+        android:layout_width="wrap_content"
+        android:layout_height="273dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="170dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="SELAMAT DATANG, DI HOME"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="462dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="SELAMAT DATANG, DI HOME WEDDING ORGANIZER"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/textViewhm"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tombol"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:gravity="center"
+        android:text="Pindah" />
+
+</RelativeLayout>
